@@ -1,0 +1,113 @@
+*
+{
+    font-family: Cairo , Cochin, Georgia, Times, 'Times New Roman', serif !important ;
+}
+
+/* header */
+.gaberHeader
+{
+    background: firebrick ;
+    padding: 15px 10px;
+    color: white;
+    font-size: 20px;    
+}
+.gaberHeader .right
+{
+    text-align: right ;
+}
+
+/* users and messagse */
+.gaberUsers
+{
+    margin-top: 30px ;
+    min-height: 450px ;
+    max-height: 450px ;
+    position: relative ;
+}
+.gaberUsers .left
+{
+    /*background: blue ;*/
+    padding-left: 0;
+    min-height: 450px ;
+    max-height: 450px ;
+    overflow: auto
+}
+.gaberUsers .left .user
+{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background: firebrick;
+    margin-bottom: 10px ;
+}
+.gaberUsers .left a:hover
+{
+    text-decoration: none ;
+}
+.gaberUsers .right
+{
+    padding-right: 0 ;
+    /*background: yellow */
+}
+.gaberUsers .right .messages
+{
+    color: white;
+    background: firebrick;
+    padding: 10px;
+    font-size: 15px;
+    min-height: 350px;
+    max-height: 350px;
+    overflow:  auto ;
+}
+.gaberUsers .right .messages .oneMessage
+{
+    padding: 5px;
+    margin-top: 20px;
+}
+.gaberUsers .right .messages .oneMessage p
+{
+    margin: 0 ;
+}
+.gaberUsers .clearChat
+{
+    position: absolute;
+    color: white;
+    background: black;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* gaberInput */
+.gaberUsers .gaberInput
+{
+    margin-top: 30px ;
+}
+.gaberUsers .gaberInput input
+{
+    /*background: firebrick;*/
+    border: 1px solid firebrick ;
+    outline: 0;
+    font-size: 15px;
+    font-weight: bold ;
+    padding: 10px 5px;
+    width: 80%;
+    color:firebrick ;
+    float: left
+}
+.gaberUsers .gaberInput button
+{
+    width: 130px;
+    float: left;
+    float: left;
+    margin-left: 10px;
+    height: 45px;
+    border: none;
+    border-radius: 0;
+    background: firebrick;
+    font-size: 20px;
+    float: left
+}
